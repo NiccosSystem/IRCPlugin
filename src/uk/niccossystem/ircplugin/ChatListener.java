@@ -52,7 +52,7 @@ public class ChatListener extends PircBot implements PluginListener {
             return;
         }
         try {
-            uhcChat.send(">" + sender + ": " + message.substring(2));
+            uhcChat.send(">" + sender + ": " + message);
         }
         catch (SkypeException e) {
             SkypeBot.log("Could not send message! (Not hooked into Skype?");
