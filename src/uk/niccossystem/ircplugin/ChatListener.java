@@ -43,7 +43,7 @@ public class ChatListener extends PircBot implements PluginListener {
 	@Override
 	public void onMessage(String channel, String sender, String login, String hostname, String message)  {
 		if (uhcChat == null) return;
-		if (!message.startsWith("S ")) return;
+		if (message.startsWith("# ")) return;
 		try {
 			uhcChat.send(">" + sender + ": " + message.substring(2));
 		} catch (SkypeException e) {
