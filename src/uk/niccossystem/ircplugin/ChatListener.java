@@ -9,10 +9,10 @@ import org.jibble.pircbot.PircBot;
 import com.skype.Chat;
 import com.skype.SkypeException;
 
-import uk.niccossystem.skypebot.SkypeBot;
-import uk.niccossystem.skypebot.hook.HookHandler;
-import uk.niccossystem.skypebot.hook.chat.ChatHook;
-import uk.niccossystem.skypebot.plugin.PluginListener;
+import net.niccossystem.skypebot.SkypeBot;
+import net.niccossystem.skypebot.hook.HookHandler;
+import net.niccossystem.skypebot.hook.chat.ChatHook;
+import net.niccossystem.skypebot.plugin.PluginListener;
 
 public class ChatListener extends PircBot implements PluginListener {
 	

@@ -4,8 +4,8 @@ import java.io.IOException;
 
 import org.jibble.pircbot.IrcException;
 
-import uk.niccossystem.skypebot.SkypeBot;
-import uk.niccossystem.skypebot.plugin.Plugin;
+import net.niccossystem.skypebot.SkypeBot;
+import net.niccossystem.skypebot.plugin.Plugin;
 
 public class IRCPlugin extends Plugin {
 
